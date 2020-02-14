@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Sources\;Sources\Entities\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Documents and Settings/Patrik/My Documents/Dropbox/INCLUDE" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lglew32 -lSDL2main -lSDL2 -lSDL2_image -lopengl32" />
+			<Add directory="C:/Documents and Settings/Patrik/My Documents/Dropbox/LIBx86" />
+		</Linker>
+		<Unit filename="BaseTile.cpp" />
+		<Unit filename="BaseTile.h" />
+		<Unit filename="Entity.cpp" />
+		<Unit filename="Entity.h" />
+		<Unit filename="EntityManager.cpp" />
+		<Unit filename="EntityManager.h" />
+		<Unit filename="EntityMoving.cpp" />
+		<Unit filename="EntityMoving.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="InputHandler.cpp" />
+		<Unit filename="InputHandler.h" />
+		<Unit filename="Level.cpp" />
+		<Unit filename="Level.h" />
+		<Unit filename="MathHelper.h" />
+		<Unit filename="Matrix4x4.cpp" />
+		<Unit filename="Matrix4x4.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="RenderManager.cpp" />
+		<Unit filename="RenderManager.h" />
+		<Unit filename="Res/Shaders/std.fs" />
+		<Unit filename="Res/Shaders/std.vs" />
+		<Unit filename="Res/Tex/entities.png" />
+		<Unit filename="Res/Tex/test.png" />
+		<Unit filename="Shader.cpp" />
+		<Unit filename="Shader.h" />
+		<Unit filename="TestEntity.cpp" />
+		<Unit filename="TestEntity.h" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h" />
+		<Unit filename="TextureManager.cpp" />
+		<Unit filename="TextureManager.h" />
+		<Unit filename="Tile.cpp" />
+		<Unit filename="Tile.h" />
+		<Unit filename="VBO.cpp" />
+		<Unit filename="VBO.h" />
+		<Unit filename="Vertex.h" />
+		<Unit filename="Window.cpp" />
+		<Unit filename="Window.h" />
+		<Unit filename="WorldType.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

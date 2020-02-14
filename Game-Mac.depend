@@ -1,0 +1,483 @@
+# depslib dependency file v1.0
+1380815523 source:/Users/Patrik/Documents/Dropbox/Games/Game/BaseTile.cpp
+	"BaseTile.h"
+
+1380815472 /Users/Patrik/Documents/Dropbox/Games/Game/BaseTile.h
+	"Tile.h"
+
+1380815365 /Users/Patrik/Documents/Dropbox/Games/Game/Tile.h
+
+1380645784 source:/Users/Patrik/Documents/Dropbox/Games/Game/Entity.cpp
+	"Entity.h"
+
+1380645712 /Users/Patrik/Documents/Dropbox/Games/Game/Entity.h
+	<string>
+
+1381357219 source:/Users/Patrik/Documents/Dropbox/Games/Game/EntityManager.cpp
+	"EntityManager.h"
+
+1381356863 /Users/Patrik/Documents/Dropbox/Games/Game/EntityManager.h
+	"Entity.h"
+	<deque>
+	<vector>
+	<iostream>
+
+1380645788 source:/Users/Patrik/Documents/Dropbox/Games/Game/EntityMoving.cpp
+	"EntityMoving.h"
+
+1380645763 /Users/Patrik/Documents/Dropbox/Games/Game/EntityMoving.h
+	"entity.h"
+
+1381351194 source:/Users/Patrik/Documents/Dropbox/Games/Game/Game.cpp
+	"Game.h"
+
+1380816574 /Users/Patrik/Documents/Dropbox/Games/Game/Game.h
+	<ctime>
+	"InputHandler.h"
+	<iostream>
+	"RenderManager.h"
+	"Vertex.h"
+	"EntityManager.h"
+	"TestEntity.h"
+	"Level.h"
+	"Texture.h"
+	<SDL2/SDL_image.h>
+
+1375694873 /Users/Patrik/Documents/Dropbox/Games/Game/InputHandler.h
+	<SDL2/SDL.h>
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_config.h
+	"SDL_platform.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/begin_code.h
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/close_code.h
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<intrin.h>
+	<libkern/OSAtomic.h>
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_pixels.h
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1381348496 /Users/Patrik/Documents/Dropbox/Games/Game/RenderManager.h
+	<GL/glew.h>
+	"Shader.h"
+	"Vertex.h"
+	"VBO.h"
+	"Entity.h"
+	"TextureManager.h"
+	"EntityManager.h"
+
+1374477200 /Users/Patrik/Documents/Dropbox/INCLUDE/GL/glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1380571353 /Users/Patrik/Documents/Dropbox/Games/Game/Shader.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_opengl.h>
+	<fstream>
+	<stdio.h>
+	<string>
+	<vector>
+	<iostream>
+	<algorithm>
+
+1376276358 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_opengl.h
+	"SDL_config.h"
+	<windows.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1375971819 /Users/Patrik/Documents/Dropbox/Games/Game/Vertex.h
+	<SDL2/SDL_opengl.h>
+
+1375109158 /Users/Patrik/Documents/Dropbox/Games/Game/VBO.h
+	<GL/glew.h>
+	<SDL2/SDL_opengl.h>
+
+1380463660 /Users/Patrik/Documents/Dropbox/Games/Game/TextureManager.h
+	<stdio.h>
+	<stdlib.h>
+	<map>
+	<math.h>
+	"Texture.h"
+
+1375791382 /Users/Patrik/Documents/Dropbox/Games/Game/Texture.h
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+
+1376156342 /Users/Patrik/Documents/Dropbox/INCLUDE/SDL2/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1380645763 /Users/Patrik/Documents/Dropbox/Games/Game/TestEntity.h
+	"Entity.h"
+
+1381357300 /Users/Patrik/Documents/Dropbox/Games/Game/Level.h
+	"TestEntity.h"
+	"RenderManager.h"
+	"Tile.h"
+	"Player.h"
+
+1379799174 /Users/Patrik/Documents/Dropbox/Games/Game/Player.h
+	"EntityMoving.h"
+
+1374652229 source:/Users/Patrik/Documents/Dropbox/Games/Game/InputHandler.cpp
+	"InputHandler.h"
+
+1381420430 source:/Users/Patrik/Documents/Dropbox/Games/Game/Level.cpp
+	"Level.h"
+
+1376129871 source:/Users/Patrik/Documents/Dropbox/Games/Game/Matrix4x4.cpp
+	"Matrix4x4.h"
+
+1377624255 /Users/Patrik/Documents/Dropbox/Games/Game/Matrix4x4.h
+
+1380554206 source:/Users/Patrik/Documents/Dropbox/Games/Game/Player.cpp
+	"Player.h"
+
+1381420260 source:/Users/Patrik/Documents/Dropbox/Games/Game/RenderManager.cpp
+	"RenderManager.h"
+
+1379618461 source:/Users/Patrik/Documents/Dropbox/Games/Game/Shader.cpp
+	"Shader.h"
+
+1380645793 source:/Users/Patrik/Documents/Dropbox/Games/Game/TestEntity.cpp
+	"TestEntity.h"
+
+1380465615 source:/Users/Patrik/Documents/Dropbox/Games/Game/Texture.cpp
+	"Texture.h"
+
+1381419730 source:/Users/Patrik/Documents/Dropbox/Games/Game/TextureManager.cpp
+	"TextureManager.h"
+	<iostream>
+
+1380814931 source:/Users/Patrik/Documents/Dropbox/Games/Game/Tile.cpp
+	"Tile.h"
+
+1375109154 source:/Users/Patrik/Documents/Dropbox/Games/Game/VBO.cpp
+	"VBO.h"
+
+1381347597 source:/Users/Patrik/Documents/Dropbox/Games/Game/Window.cpp
+	"Window.h"
+
+1381094630 /Users/Patrik/Documents/Dropbox/Games/Game/Window.h
+	"Game.h"
+	"InputHandler.h"
+	<stdlib.h>
+	<stdio.h>
+	<GL/glew.h>
+	<SDL2/SDL.h>
+
